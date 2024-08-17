@@ -1,5 +1,5 @@
 {
-  "name": "validator",
+  "name": "notavalidator",
   "description": "String validation and sanitization",
   "version": "13.12.0",
   "sideEffects": false,
