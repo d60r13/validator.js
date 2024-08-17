@@ -1,9 +1,9 @@
 {
-  "name": "notavalidator",
-  "description": "String validation and sanitization",
-  "version": "13.12.0",
+  "name": "test",
+  "description": "test",
+  "version": "1",
   "sideEffects": false,
-  "homepage": "https://github.com/validatorjs/validator.js",
+  "homepage": "test",
   "files": [
     "index.js",
     "es",
@@ -23,17 +23,17 @@
     "sanitise",
     "assert"
   ],
-  "author": "Chris O'Hara <cohara87@gmail.com>",
+  "author": "test",
   "contributors": [
-    "Anthony Nandaa (https://github.com/profnandaa)"
+    "test"
   ],
   "main": "index.js",
   "bugs": {
-    "url": "https://github.com/validatorjs/validator.js/issues"
+    "url": "test"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/validatorjs/validator.js.git"
+    "url": "test"
   },
   "devDependencies": {
     "@babel/cli": "^7.0.0",
