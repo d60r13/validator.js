@@ -9,7 +9,7 @@
 [![Gitter][gitter-image]][gitter-url]
 
 A library of string validators and sanitizers.
-
+d
 ## Strings only 
 
 **This library validates and sanitizes strings only.**
