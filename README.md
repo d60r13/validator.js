@@ -10,7 +10,7 @@
 
 A library of string validators and sanitizers.
 
-## Strings only
+## Strings only 
 
 **This library validates and sanitizes strings only.**
 
