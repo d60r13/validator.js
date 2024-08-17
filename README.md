@@ -12,7 +12,7 @@ A library of string validators and sanitizers.
 d
 ## Strings only 
 
-**This library validates and sanitizes strings only.**
+**This library validates and sanitizes strings only.**v
 
 If you're not sure if your input is a string, coerce it using `input + ''`.
 Passing anything other than a string will result in an error.
