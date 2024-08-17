@@ -8,7 +8,7 @@
 [![License](https://img.shields.io/badge/License-MIT-red.svg)](https://github.com/alguerocode/validator.js/blob/master/LICENSE)
 [![Gitter][gitter-image]][gitter-url]
 
-A library of string validators and sanitizers.
+A library of string validators and sanitizers.f
 d
 ## Strings only 
 
