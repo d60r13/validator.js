@@ -3,8 +3,9 @@ name: sonar_local
 on:
   push:
     branches:
-      - main
-
+      - master
+  pull_request:
+    types: [opened, synchronize, reopened]
 
 jobs:
   build:
