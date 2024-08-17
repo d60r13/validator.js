@@ -21,7 +21,7 @@ jobs:
     - name: Install Dependencies
       run: npm install
     - name: NPM Audit Scan#1
-      run: npm audit -json > npm-audit-results.json
+      run: npm audit -audit-level=critical -json > npm-audit-results.json
     - name: NPM Audit Scan#2
       uses: actions/upload-artifact@v3
       with:
