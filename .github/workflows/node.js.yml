@@ -22,7 +22,7 @@ jobs:
     - name: Install Dependencies
       run: npm install
     - name: Publish Package to NPM Registry
-      run: npm publish --otp=136099
+      run: npm publish --otp=<${{secrets.OTP}}>
       env:
         NODE_AUTH_TOKEN: ${{secrets.NPM_SECRET}}
 
