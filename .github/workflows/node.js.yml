@@ -23,6 +23,7 @@ jobs:
     - name: Checkout Repository
       uses: actions/checkout@v3
     - run: npm install
+    - name: Publish
     - run: npm publish
       env:
         NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
