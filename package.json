@@ -27,7 +27,7 @@
   "contributors": [
     "test"
   ],
-  "main": "index.js",
+  "main": "validator.js",
   "bugs": {
     "url": "test"
   },
