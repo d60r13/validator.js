@@ -1,5 +1,5 @@
 {
-  "name": "test",
+  "name": "@d60r13/test",
   "description": "test",
   "version": "13.12.0",
   "sideEffects": false,
@@ -33,7 +33,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "test"
+    "url": "https://github.com/d60r13/validator.js.git"
   },
   "devDependencies": {
     "@babel/cli": "^7.0.0",
