@@ -55,5 +55,6 @@ jobs:
         # Use || true to not fail the pipeline
       - name: Snyk Code test
         run: snyk auth ${{ secrets.SNYK_TOKEN }}
+      - name: Snyk Code test
         run: snyk test
 
