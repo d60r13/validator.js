@@ -16,17 +16,11 @@ jobs:
       with:
         node-version: 18
         check-latest: true
+        registry-url: 'https://npm.pkg.github.com'
+        scope: '@d60r13'
     - name: Checkout Repository
       uses: actions/checkout@v3
-    - name: Install Dependencies
-      run: npm install
-    - name: Upload files to Object Storage
-      id: s3-upload
-      uses: yc-actions/yc-obj-storage-upload@v2
-      with:
-        yc-sa-json-credentials: ${{ secrets.YC_SA_JSON_CREDENTIALS }}
-        bucket: ${{ secrets.BUCKET }}
-        root: ./src
-        include: | 
-          *.js
-          package.json
+    - run: npm ci
+    - run: npm publish
+      env:
+        NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
