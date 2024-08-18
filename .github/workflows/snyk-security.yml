@@ -57,4 +57,6 @@ jobs:
         run: snyk auth ${{ secrets.SNYK_TOKEN }}
       - name: Snyk Code test
         run: snyk test
+      - name : test
+        run: snyk code test
 
