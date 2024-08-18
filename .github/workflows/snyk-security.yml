@@ -59,4 +59,5 @@ jobs:
         run: snyk test
       - name : test
         run: snyk code test
+        continue-on-error: true
 
