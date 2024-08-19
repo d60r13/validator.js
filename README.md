@@ -24,7 +24,7 @@ Passing anything other than a string will result in an error.
 Install the `validator` package as:
 
 ```sh
-npm i validator
+npm i validator   
 yarn add validator
 pnpm i validator
 ```
