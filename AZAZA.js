@@ -24,3 +24,4 @@ export async function getImage(req, res) {
     res.status(400).json({ error: "filename is required" });
   }
 }
+
